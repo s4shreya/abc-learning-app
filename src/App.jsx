@@ -1,5 +1,5 @@
 import styles from "./App.module.css";
-import Main from "./components/main-content/main";
+import Main from "src/components/main-content/Main.jsx";
 import Footer from "./components/Footer";
 
 function App() {
