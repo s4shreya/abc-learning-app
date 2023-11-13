@@ -1,6 +1,15 @@
+import Logo from "./Logo";
+import Menu from "./Menu";
+import SignUp from "./SignUp";
+import styles from "./Header.module.css";
+
 const Header = () => {
   return (
-    <div>Header</div>
-  )
-}
-export default Header
+    <header className={styles.container}>
+      <Logo />
+      <Menu />
+      <SignUp />
+    </header>
+  );
+};
+export default Header;

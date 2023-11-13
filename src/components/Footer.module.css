@@ -1,0 +1,15 @@
+.footer {
+  margin: auto;
+}
+
+.footer svg {
+  margin-right: 10px;
+}
+
+.footer svg:nth-child(1) {
+  color: skyblue;
+}
+
+.footer svg:nth-child(2) {
+  color: red;
+}
