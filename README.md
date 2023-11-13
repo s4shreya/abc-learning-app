@@ -1,8 +1,14 @@
-# React + Vite
+# Learning Web Application
+Learning app is a tutorial web application platform with various videos and articles on different subjects. The Home page consists of all the subjects available for learning. On selecting a subject from the category, the user is redirected to that particular subject's home page where one can find corresponding videos and articles of the subject. The user can also attempt a quiz to test their skills.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Installation
+```bash
+npm install
+```
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Starting the application
+In the project directory, run
+```bash
+npm run dev
+```
+After the development server starts, you can view the website on the browser.
