@@ -24,6 +24,12 @@
   color: wheat;
 }
 
+.menu button:focus {
+  background-color: lightcoral;
+  color: wheat;
+  border: 0;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;

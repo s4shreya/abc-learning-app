@@ -1,0 +1,106 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 40%;
+  height: 600px;
+  margin: auto;
+  background-color: rgb(252, 252, 252);
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.content {
+  background-color: rgb(237, 226, 212);
+  border-radius: 10px;
+  height: 450px;
+}
+
+.heading {
+  color: purple;
+  letter-spacing: 2px;
+}
+
+.result-msg {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px grey;
+  padding: 10px;
+}
+
+.result-msg h5 {
+  color: green;
+  margin: 0;
+}
+
+.result-msg h3 {
+  color: purple;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.message {
+  font-weight: 700;
+  margin: 0;
+}
+
+.quote {
+  font-size: small;
+  color: gray;
+}
+
+.col {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  padding: 0;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.col li {
+  list-style-type: none;
+}
+
+.col li:nth-child(1) {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.col li:nth-child(2) {
+  color: purple;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+.col li:nth-child(3),
+.col li:nth-child(2) span {
+  font-size: 13px;
+  color: black;
+  font-weight: 500;
+}
+
+.btn {
+  margin: auto;
+  width: 20%;
+  background-color: purple;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: rgb(184, 64, 184);
+  cursor: pointer;
+}
