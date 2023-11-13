@@ -3,6 +3,6 @@ import subjectDetailsReducer from "../reducers/subjectDetailsSlice";
 
 export const store = configureStore({
   reducer: {
-    subjectDetailsReducer,
+    subject: subjectDetailsReducer,
   },
 });

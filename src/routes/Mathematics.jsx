@@ -1,10 +1,13 @@
-import SubjectPage from "../components/SubjectPage"
+import { Link } from "react-router-dom";
+import SubjectPage from "../components/SubjectPage";
+import styles from '../styles/styles.module.css';
 
 const Mathematics = () => {
   return (
-    <div>Mathematics
-      <SubjectPage name="mathematics" />
+    <div>
+      <p className={styles["quiz-button"]}><Link to={"/quiz"}>Attempt Quiz</Link></p>
+      <SubjectPage />
     </div>
-  )
-}
-export default Mathematics
+  );
+};
+export default Mathematics;

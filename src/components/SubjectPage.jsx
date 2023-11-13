@@ -1,19 +1,27 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import { useSelector } from "react-redux";
+
 import Videos from "./Videos";
 import Articles from "./Articles";
-import axios from "axios";
+import styles from './SubjectPage.module.css';
 
-const SubjectPage = ({name}) => {
+const SubjectPage = ({ name }) => {
   const [selectedTab, setSelectedTab] = useState("videos");
-  const [loading, setLoading] = useState(true);
-  const [loadedSubjectDetails, setLoadedSubjectDetails] = useState([]);
 
-  useEffect(() => {
-    setLoading(true);
-    axios.get();
-  }, []);
-  const subjectDetails = props.subject;
+  const subjectDetails = useSelector((state) => state.subject);
 
-  return <>{selectedTab === "videos" ? <Videos /> : <Articles />}</>;
+  return (
+    <>
+    <nav className={styles.menu}>
+        <button onClick={() => setSelectedTab("videos")}>Videos</button>
+        <button onClick={() => setSelectedTab("articles")}>Articles</button>
+    </nav>
+      {selectedTab === "videos" ? (
+        <Videos videos={subjectDetails.videos} />
+      ) : (
+        <Articles articles={subjectDetails.articles} />
+      )}
+    </>
+  );
 };
 export default SubjectPage;
