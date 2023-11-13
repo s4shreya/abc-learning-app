@@ -12,6 +12,7 @@ import Sanskrit from "./routes/Sanskrit.jsx";
 import Quiz from "./routes/Quiz.jsx";
 import QuizResult from "./routes/QuizResult.jsx";
 import Hindi from "./routes/Hindi.jsx";
+import AddSubject from "./components/main-content/AddSubject.jsx";
 
 const router = createBrowserRouter([
   {
@@ -49,6 +50,11 @@ const router = createBrowserRouter([
   {
     path: "/quiz-result",
     element: <QuizResult />,
+  },
+  ,
+  {
+    path: "/add-subject",
+    element: <AddSubject />,
   },
 ]);
 

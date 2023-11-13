@@ -1,0 +1,46 @@
+.card {
+    width: 400px;
+    height: 550px;
+    background-color: papayawhip;
+    margin: 20px;
+    /* border: 2px solid seagreen; */
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgb(190, 152, 190);
+    position: relative;
+}
+
+.card img {
+    border-radius: 20px;
+}
+
+.card-content {
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 30px;
+    margin: 10px;
+    color: purple;
+}
+
+.card p {
+    color: crimson;
+    text-align: justify;
+    padding: 15px;
+}
+
+.card-footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.card-footer span {
+    
+    color: rgb(4, 81, 4);
+}
+
+.card-footer span:nth-child(2) {
+    float: right;
+}
