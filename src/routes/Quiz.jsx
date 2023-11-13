@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import DisplayedQuestion from "../components/DisplayedQuestion";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 const Quiz = () => {

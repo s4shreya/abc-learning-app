@@ -65,7 +65,7 @@ export const quizSlice = createSlice({
       state.quizSubmitted = action.payload;
     },
     submittedAnswers: (state, action) => {
-      state.submittedAnswers = action.payload;
+      state.submittedAnswersList = action.payload;
     },
   },
 });

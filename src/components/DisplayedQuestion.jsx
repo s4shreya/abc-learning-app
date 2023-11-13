@@ -9,7 +9,7 @@ const DisplayedQuestion = (props) => {
   const [optionSelected, setOptionSelected] = useState("");
   const dispatch = useDispatch();
 
-  const quizSubmitted = useSelector((state) => state.quiz.quizStatus);
+  const quizSubmitted = useSelector((state) => state.quiz.quizSubmitted);
   const submittedAnswersList = useSelector(
     (state) => state.quiz.submittedAnswersList
   );
@@ -25,12 +25,10 @@ const DisplayedQuestion = (props) => {
   const handleSubmitQuiz = () => {
     dispatch(submittedAnswers(props.selectedAnswers));
     dispatch(quizStatus(true));
-    // quizCtxt.updateQuizSubmitted(true, props.selectedAnswers);
     props.submitQuiz();
   };
   const handleOptionSelection = (e) => {
     setOptionSelected(question.options[e.target.value].answer);
-    console.log(optionSelected);
     props.optionSelected(question.no, e.target.value);
   };
 
