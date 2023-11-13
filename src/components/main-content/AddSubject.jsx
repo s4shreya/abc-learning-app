@@ -14,7 +14,7 @@ const AddSubject = () => {
     event.preventDefault();
     await axios
       .post(
-        "https://learning-app-15eb1-default-rtdb.asia-southeast1.firebasedatabase.app/subjects.json",
+        "https://learning-app-15eb1-default-rtdb.asia-southeast1.firebasedatabase.app/subject.json",
         data
       )
       .then((res) => console.log(JSON.stringify(res)))
