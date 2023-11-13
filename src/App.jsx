@@ -1,11 +1,11 @@
 import styles from "./App.module.css";
-import Main from "src/components/main-content/Main.jsx";
+import MainContent from "./components/main-content/MainContent";
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className={styles.container}>
-      <Main />
+      <MainContent />
       <Footer />
     </div>
   );

@@ -6,7 +6,7 @@ import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
 import styles from "./Main.module.css";
 import SubjectCard from "./SubjectCard";
 
-const Main = () => {
+const MainContent = () => {
   const [loading, setLoading] = useState(true);
   const [loadedSubjects, setLoadedSubjects] = useState([]);
 
@@ -45,4 +45,4 @@ const Main = () => {
     </main>
   );
 };
-export default Main;
+export default MainContent;
