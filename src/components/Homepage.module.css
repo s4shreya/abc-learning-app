@@ -1,12 +1,66 @@
-.circle {
-    width: 300px;
-    height: 300px;
-    border: 10px solid purple;
-    border-radius: 50%;
+.circle-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 30px;
 }
 
-.circle:hover {
-background-image: url("https://i.pinimg.com/originals/3f/76/18/3f76181738c6b8822876305b5c2eb7ef.jpg");
-    background-size: cover;
-    background-position: center;
+.circle {
+  width: 300px;
+  height: 300px;
+  border: 10px solid purple;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 10px 10px 20px 10px bisque;
+}
+
+.circle p {
+    text-align: center;
+    line-height: 150px;
+    font-size: 50px;
+    
+    color: lightcoral;
+    text-shadow: 3px 3px cadetblue, -3px -3px cadetblue;
+}
+
+.circle:nth-child(1) {
+    background-color: orange;
+}
+.circle:nth-child(2) {
+    background-color: rgb(224, 154, 189);
+}
+.circle:nth-child(3) {
+    background-color: rgb(100, 237, 219);
+}
+.circle:nth-child(4) {
+    background-color: yellow;
+}
+
+.circle:hover:nth-child(1) {
+  background-image: url("https://i.pinimg.com/originals/3f/76/18/3f76181738c6b8822876305b5c2eb7ef.jpg");
+  background-size: cover;
+  background-position: center;
+  transform: scale(1.1,1.1);
+  box-shadow: 45px 30px 70px gold, -45px -30px 70px gold, 45px -30px 20px gold, -45px 30px 20px gold;
+}
+.circle:hover:nth-child(2) {
+  background-image: url("https://i.pinimg.com/originals/3f/76/18/3f76181738c6b8822876305b5c2eb7ef.jpg");
+  background-size: cover;
+  background-position: center;
+  transform: scale(1.1,1.1);
+  box-shadow: 45px 30px 70px gold, -45px -30px 70px gold, 45px -30px 20px gold, -45px 30px 20px gold;
+}
+.circle:hover:nth-child(3) {
+  background-image: url("https://i.pinimg.com/originals/3f/76/18/3f76181738c6b8822876305b5c2eb7ef.jpg");
+  background-size: cover;
+  background-position: center;
+  transform: scale(1.1,1.1);
+  box-shadow: 45px 30px 70px gold, -45px -30px 70px gold, 45px -30px 20px gold, -45px 30px 20px gold;
+}
+.circle:hover:nth-child(4) {
+  background-image: url("https://i.pinimg.com/originals/3f/76/18/3f76181738c6b8822876305b5c2eb7ef.jpg");
+  background-size: cover;
+  background-position: center;
+  transform: scale(1.1,1.1);
+  box-shadow: 45px 30px 70px gold, -45px -30px 70px gold, 45px -30px 20px gold, -45px 30px 20px gold;
 }
