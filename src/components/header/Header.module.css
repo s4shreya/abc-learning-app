@@ -13,13 +13,16 @@
 
 .heading a {
   text-decoration: none;
-  font-size: 28px;
+  font-size: 40px;
+  text-shadow: 5px 5px bisque, -5px -5px bisque;
 }
 
 .heading svg {
   position: relative;
-  top: 5px;
-  left: 5px;
+  top: 10px;
+  left: 10px;
+  color: blueviolet;
+  font-size: 40px;
 }
 
 .menu {
