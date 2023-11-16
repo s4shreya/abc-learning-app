@@ -16,6 +16,7 @@ import QuizResult from "./routes/QuizResult.jsx";
 import Hindi from "./routes/Hindi.jsx";
 import AddSubject from "./components/main-content/AddSubject.jsx";
 import RootLayout from "./routes/RootLayout.jsx";
+import Courses from "./routes/Courses.jsx";
 
 const router = createBrowserRouter([
   {
@@ -59,6 +60,10 @@ const router = createBrowserRouter([
       {
         path: "/add-subject",
         element: <AddSubject />,
+      },
+      {
+        path: "/courses",
+        element: <Courses />,
       },
     ],
   },

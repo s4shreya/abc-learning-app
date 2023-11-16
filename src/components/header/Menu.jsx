@@ -16,7 +16,7 @@ const Menu = () => {
             <Link to={"/hindi"}>Hindi</Link>
           </div>
         </li>
-        <li>Courses</li>
+        <li><Link to="/courses">Courses</Link></li>
         <li>About Us</li>
         <li>
           <Link to={"/quiz"}>Quiz</Link>
