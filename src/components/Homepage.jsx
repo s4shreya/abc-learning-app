@@ -1,5 +1,6 @@
 import styles from "./Homepage.module.css";
 import CourseCategories from "./homepage/CourseCategories";
+import ImageGallery from "./homepage/ImageGallery";
 import Numbers from "./homepage/Numbers";
 
 const Homepage = () => {
@@ -7,9 +8,9 @@ const Homepage = () => {
 
   return (
     <div>
-      <div style={{height: 1000}}></div>
-      <Numbers />
+      <ImageGallery />
       <CourseCategories />
+      <Numbers />
       <div className={styles["circle-container"]}>
         {circles.map((circle, index) => (
           <div key={index} className={styles.circle}>
