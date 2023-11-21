@@ -1,5 +1,6 @@
 import styles from "./Homepage.module.css";
 import CourseCategories from "./homepage/CourseCategories";
+import CourseInstructors from "./homepage/CourseInstructors";
 import ImageGallery from "./homepage/ImageGallery";
 import Numbers from "./homepage/Numbers";
 import Testimonials from "./homepage/Testimonials";
@@ -13,6 +14,7 @@ const Homepage = () => {
       <CourseCategories />
       <Numbers />
       <Testimonials />
+      <CourseInstructors />
       <h3 className={styles.heading}>Classes</h3>
       <div className={styles["circle-container"]}>
         {circles.map((circle, index) => (
