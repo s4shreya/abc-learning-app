@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  background-color: beige;
+  margin: 20px 0;
+  align-items: center;
+}
+
+.container p {
+  font-size: 30px;
+  width: 20%;
+  margin: 20px;
+  text-align: center;
+  color: purple;
+  font-weight: 800;
+}
+
+.container p > span {
+  margin-right: 0;
+}

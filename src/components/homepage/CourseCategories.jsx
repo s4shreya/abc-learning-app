@@ -51,7 +51,7 @@ const CourseCategories = () => {
   ];
 
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <h3>COURSE CATEGORIES</h3>
       <h5>Popular topics to learn</h5>
       <div className={styles["course-container"]}>
@@ -62,7 +62,7 @@ const CourseCategories = () => {
           </p>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 export default CourseCategories;
