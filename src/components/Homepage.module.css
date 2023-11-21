@@ -3,6 +3,15 @@
   flex-wrap: wrap;
   justify-content: center;
   column-gap: 30px;
+  margin-bottom: 30px;
+}
+
+.heading {
+  color: rgb(184, 27, 132);
+  font-size: 35px;
+  text-align: center;
+  text-shadow: 5px 5px 5px skyblue;
+  margin-bottom: 50px;
 }
 
 .circle {
@@ -15,52 +24,56 @@
 }
 
 .circle p {
-    text-align: center;
-    line-height: 150px;
-    font-size: 50px;
-    
-    color: lightcoral;
-    text-shadow: 3px 3px cadetblue, -3px -3px cadetblue;
+  text-align: center;
+  line-height: 150px;
+  font-size: 50px;
+
+  color: lightcoral;
+  text-shadow: 3px 3px cadetblue, -3px -3px cadetblue;
 }
 
 .circle:nth-child(1) {
-    background-color: rgb(224, 142, 113);
+  background-color: rgb(224, 142, 113);
 }
 .circle:nth-child(2) {
-    background-color: rgb(224, 154, 189);
+  background-color: rgb(224, 154, 189);
 }
 .circle:nth-child(3) {
-    background-color: rgb(100, 237, 219);
+  background-color: rgb(100, 237, 219);
 }
 .circle:nth-child(4) {
-    background-color: yellow;
+  background-color: yellow;
 }
 
 .circle:hover:nth-child(1) {
   background-image: url("https://thumbs.dreamstime.com/z/smiling-sun-illustration-character-34434947.jpg");
   background-size: cover;
   background-position: center;
-  transform: scale(1.1,1.1);
-  box-shadow: 45px 30px 70px gold, -45px -30px 70px gold, 45px -30px 20px gold, -45px 30px 20px gold;
+  transform: scale(1.1, 1.1);
+  box-shadow: 45px 30px 70px gold, -45px -30px 70px gold, 45px -30px 20px gold,
+    -45px 30px 20px gold;
 }
 .circle:hover:nth-child(2) {
   background-image: url("https://thumbs.dreamstime.com/z/smiling-sun-illustration-character-34434947.jpg");
   background-size: cover;
   background-position: center;
-  transform: scale(1.1,1.1);
-  box-shadow: 45px 30px 70px gold, -45px -30px 70px gold, 45px -30px 20px gold, -45px 30px 20px gold;
+  transform: scale(1.1, 1.1);
+  box-shadow: 45px 30px 70px gold, -45px -30px 70px gold, 45px -30px 20px gold,
+    -45px 30px 20px gold;
 }
 .circle:hover:nth-child(3) {
   background-image: url("https://thumbs.dreamstime.com/z/smiling-sun-illustration-character-34434947.jpg");
   background-size: cover;
   background-position: center;
-  transform: scale(1.1,1.1);
-  box-shadow: 45px 30px 70px gold, -45px -30px 70px gold, 45px -30px 20px gold, -45px 30px 20px gold;
+  transform: scale(1.1, 1.1);
+  box-shadow: 45px 30px 70px gold, -45px -30px 70px gold, 45px -30px 20px gold,
+    -45px 30px 20px gold;
 }
 .circle:hover:nth-child(4) {
   background-image: url("https://thumbs.dreamstime.com/z/smiling-sun-illustration-character-34434947.jpg");
   background-size: cover;
   background-position: center;
-  transform: scale(1.1,1.1);
-  box-shadow: 45px 30px 70px gold, -45px -30px 70px gold, 45px -30px 20px gold, -45px 30px 20px gold;
+  transform: scale(1.1, 1.1);
+  box-shadow: 45px 30px 70px gold, -45px -30px 70px gold, 45px -30px 20px gold,
+    -45px 30px 20px gold;
 }

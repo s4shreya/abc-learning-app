@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  max-width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.heading {
+  color: rgb(33, 102, 129);
+  font-size: 35px;
+  text-align: center;
+  text-shadow: 5px 5px 5px skyblue;
+}
+
+.moving-testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  flex: none;
+  height: 300px;
+  animation: marquee 20s linear infinite;
+  overflow-x: auto;
+}
+
+.testimonial {
+  background-color: azure;
+  border: 2px solid cadetblue;
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px rgb(71, 221, 151);
+}
+
+.testimonial:hover {
+  transform: scale(0.9, 0.9);
+  cursor: default;
+}
+
+.moving-testimonials img {
+  position: relative;
+  right: 90px;
+  top: 215px;
+  border-radius: 50%;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
+}
